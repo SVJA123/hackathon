@@ -1,43 +1,52 @@
-body {
-  font-family: sans-serif;
-  background-color: #101010;
-  color: white;
-  font-size: 16px;
-  line-height: 20px;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  color: white;
+html, body {
+  color:white;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  font-size: 1.2em;
 }
 
-.header {
-  height: 50px;
-  background-color: #080808;
-  color: white;
-  line-height: 50px;
+main {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+main > h1 {
   text-align: center;
-  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.video {
-  display: flex;
-  margin: 30px;
+.Test{
+  position:relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text{
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  position:relative;
+  color:white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
-.description {
-  margin: 30px;
-}
-
-.resources {
-  margin: 30px;
-}
-
-.footer {
-  padding: 10px;
-  width: 100%;
+h2{
+  position:relative;
+  top: 30px;
+  font-family: Calibri, serif;
+  color:white;
+  background-color: gray;
+  background-size: cover;
   text-align: center;
-  background-color: #181818;
+  font-size: 2.5em;
 }
