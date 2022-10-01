@@ -1,52 +1,51 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
-  color:white;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: rgb(0, 0, 0);
-  font-size: 1.2em;
-}
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+ color:white;
+ margin:0;
+ border: 0;
+ padding: 0;
+ background-color: rgb(0, 0, 0);
+ font-size: 1.2em;
 }
 
 main > h1 {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ text-align: center;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+h1 {
+ text-align: centre;
+ display: block;
 }
 
 .Test{
-  position:relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ position:relative;
+ display: block;
+ margin: auto;
 }
 
 .text{
-  text-align: center;
-  position:relative;
-  color:white;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
+ text-align: center;
+ position:relative;
+ color:white;
+ display: block;
+ margin-left: auto;
+ margin-right: auto; 
 }
 
 h2{
-  position:relative;
-  top: 30px;
-  font-family: Calibri, serif;
-  color:white;
-  background-color: gray;
-  background-size: cover;
-  text-align: center;
-  font-size: 2.5em;
+ position:relative;
+ top: 30px;
+ font-family: Calibri, serif;
+ color:white;
+ background-color: gray;
+ background-size: cover;
+ text-align: center;
+ font-size: 2.5em;
 }
+
